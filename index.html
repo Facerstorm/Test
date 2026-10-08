@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f8f5">
+  <meta name="description" content="ВебДемо — дизайн і створення простих сайтів для малого бізнесу. Послуги, демонстраційні роботи та короткий бриф для вашого проєкту.">
+  <title>ВебДемо — вебдизайн для вашої справи</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23ef4c22'/%3E%3Cpath d='M8 12l5 16 7-12 7 12 5-16' fill='none' stroke='white' stroke-width='3' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preload" href="fonts/manrope-variable.ttf" as="font" type="font/ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Перейти до вмісту</a>
+  <header>
+    <nav class="wrap nav" aria-label="Головна навігація">
+      <a class="brand" href="#main" aria-label="ВебДемо — на початок"><span class="brand-mark" aria-hidden="true">w</span>Веб<span>Демо</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">Меню</button>
+      <div class="nav-links" id="nav-links"><a href="#works">Роботи</a><a href="#services">Послуги</a><a href="#process">Як працюємо</a><a class="nav-cta" href="#brief">Ваш проєкт</a></div>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="wrap hero" aria-labelledby="hero-title">
+      <div>
+        <h1 id="hero-title">Простий сайт.<br>Ваша справа.<br><em>Новий вигляд.</em></h1>
+        <p class="hero-role">Незалежний вебдизайнер</p>
+        <p class="hero-copy">Допомагаю невеликим бізнесам розповісти про себе. Створюю сайти, у яких легко знайти потрібне й зробити наступний крок.</p>
+        <div class="hero-actions"><a class="button accent" href="#works">Переглянути роботи</a><a class="button ghost" href="#brief">Скласти бриф</a></div>
+        <div class="hero-foot">Дизайн · Верстка · Увага до деталей</div>
+      </div>
+      <div class="studio-board" role="img" aria-label="Демонстраційний макет сайту ВебДемо на дизайнерській дошці">
+        <div class="board-note">Студія ідей · концепція</div>
+        <div class="mini-browser"><div class="browser-bar"><i></i><i></i><i></i><span class="browser-address">ВебДемо / студія ідей</span></div><div class="mini-body"><div class="mini-nav">STUDIO IDEAS<span>Про нас &nbsp; Роботи &nbsp; Контакти</span></div><div class="mini-layout"><div><div class="mini-title">Ідеї мають<br>набувати<br>форми.</div><div class="mini-caption">Дизайн для маленьких справ<br>з великим характером.</div><span class="mini-button">Знайомимось</span></div><div class="poster"><img src="studio-art.png" alt="" width="1254" height="1254" fetchpriority="high"><span class="poster-label">Студія ідей</span></div></div><div class="mini-footer"><span></span><span></span><span></span></div></div></div>
+        <div class="board-tag"><strong>Від ідеї до сайту</strong>Зрозуміло. Акуратно. По суті.</div><div class="board-bottom">TYPE / SPACE / COLOR</div>
+      </div>
+    </section>
+    <section class="wrap section" id="works" aria-labelledby="works-title">
+      <div class="section-heading"><div><h2 id="works-title">Маленькі сайти.<br>Різний характер.</h2></div><p>Три приклади того, як дизайн підлаштовується під справу та її аудиторію.</p></div>
+      <div class="projects">
+        <article class="project"><button type="button" data-project="tutor" aria-label="Дізнатися про демопроєкт сайту репетитора"><div class="project-cover" aria-hidden="true"><div class="sample"><div class="sample-nav">Розумно<span>Заняття &nbsp; Про мене</span></div><div class="sample-main"><div><div class="sample-head">Навчання<br>у вашому<br>ритмі.</div><div class="sample-small">Математика без зайвого стресу.</div><span class="sample-pill">Обрати заняття</span></div><div class="sample-block">a²</div></div></div></div><div class="project-meta"><h3>Розумно</h3><span class="demo-tag">ДЕМО</span></div><p class="project-type">Сайт репетитора · Лендінг</p></button></article>
+        <article class="project"><button type="button" data-project="cafe" aria-label="Дізнатися про демопроєкт сайту кав'ярні"><div class="project-cover cafe" aria-hidden="true"><div class="sample"><div class="sample-nav">РАНО<span>Меню &nbsp; Завітайте</span></div><div class="sample-main"><div class="sample-head">Добрий ранок<br>починається тут.</div><div class="sample-small">Кава. Тепла випічка. Час для себе.</div><div class="coffee-menu"><span>Еспресо</span><span>Фільтр</span><span>Капучино</span></div></div></div></div><div class="project-meta"><h3>Рано</h3><span class="demo-tag">ДЕМО</span></div><p class="project-type">Сайт кав’ярні · Візитка</p></button></article>
+        <article class="project"><button type="button" data-project="studio" aria-label="Дізнатися про демопроєкт творчої студії"><div class="project-cover studio" aria-hidden="true"><div class="sample"><div class="sample-nav">STUDIO IDEAS<span>Проєкти &nbsp; Студія</span></div><div class="sample-main"><div><div class="sample-head">Ідеї<br>набувають<br>форми.</div><div class="sample-small">Дизайн із характером.</div></div><div class="art-preview"><img src="studio-art.png" alt="Абстрактна помаранчева стрічка на білому тлі" width="1254" height="1254" loading="lazy"></div></div></div></div><div class="project-meta"><h3>Студія ідей</h3><span class="demo-tag">ДЕМО</span></div><p class="project-type">Творча студія · Портфоліо</p></button></article>
+      </div>
+      <p class="demo-note">Демонстраційні концепції, створені для цього портфоліо.</p>
+    </section>
+    <section class="wrap section" id="services" aria-labelledby="services-title">
+      <div class="section-heading"><div><h2 id="services-title">Усе потрібне для старту.</h2></div><p>Від першого ескізу до сторінки, якою зручно користуватися.</p></div>
+      <div class="services"><article class="service"><h3>Лендінг</h3><p>Одна сторінка для послуги чи продукту: пропозиція, переваги та зрозумілий спосіб зв’язатися.</p><div class="service-tags">Структура · Дизайн · Верстка</div></article><article class="service"><h3>Сайт-візитка</h3><p>Компактний сайт про вашу справу: послуги, приклади робіт і корисна інформація для клієнтів.</p><div class="service-tags">Малий бізнес · Особистий бренд</div></article><article class="service"><h3>Оновлення сайту</h3><p>Впорядкую тексти та блоки, освіжу оформлення й адаптую сторінку для телефона.</p><div class="service-tags">Редизайн · Адаптивність</div></article></div>
+    </section>
+    <section class="wrap section process" id="process" aria-labelledby="process-title"><div><h2 id="process-title">Без зайвих<br>складнощів.</h2></div><div class="steps"><article class="step"><div class="step-number">01 / Знайомство</div><h3>Розбираємося в задачі</h3><p>Визначаємо, для кого сайт, що він має пояснювати та які матеріали вже є.</p></article><article class="step"><div class="step-number">02 / Дизайн</div><h3>Створюємо й уточнюємо</h3><p>Погоджуємо структуру та оформлення. Вносимо зміни до обраного варіанта.</p></article><article class="step"><div class="step-number">03 / Результат</div><h3>Готуємо до запуску</h3><p>Перевіряємо сайт на різних екранах і передаємо готову сторінку.</p></article></div></section>
+    <section class="wrap brief-section" id="brief" aria-labelledby="brief-title"><div><h2 id="brief-title">Який сайт<br>вам потрібен?</h2><p>Кілька речень про вашу справу допоможуть визначити перший крок. Складіть короткий бриф і збережіть його для обговорення.</p><p class="privacy-note">Бриф завантажується на ваш пристрій. Дані з цієї форми нікуди не надсилаються.</p></div><form class="brief-form" id="brief-form"><div class="field"><label for="client-name">Ваше ім’я</label><input id="client-name" name="name" autocomplete="name" placeholder="Як до вас звертатися" maxlength="100" required></div><div class="field"><label for="project-idea">Про вашу справу та сайт</label><textarea id="project-idea" name="idea" placeholder="Наприклад: я репетитор, потрібна сторінка з послугами та записом на заняття" maxlength="2000" required></textarea></div><div class="field"><label for="project-time">Бажаний термін <span style="color:#aaa9a3">(необов’язково)</span></label><input id="project-time" name="time" placeholder="Наприклад: протягом місяця" maxlength="100"></div><button class="button" type="submit">Завантажити бриф</button><p class="form-status" id="form-status" role="status" aria-live="polite"></p></form></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-row"><a class="brand" href="#main"><span class="brand-mark" aria-hidden="true">w</span>Веб<span>Демо</span></a><small>© 2026 ВебДемо · Дизайн для вашої справи</small><a href="#main">На початок</a></div></footer>
+  <dialog id="project-dialog" aria-labelledby="project-title"><button class="dialog-close" aria-label="Закрити опис проєкту" type="button"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button><h2 id="project-title"></h2><p class="dialog-kind">Демонстраційна концепція</p><p class="dialog-copy" id="project-description"></p><ul id="project-features"></ul><button class="button accent" type="button" id="similar-project">Скласти бриф для схожого сайту</button></dialog>
+  <script>
+    const menuButton=document.querySelector('.menu-toggle');
+    const navLinks=document.querySelector('#nav-links');
+    menuButton.addEventListener('click',()=>{const expanded=menuButton.getAttribute('aria-expanded')==='true';menuButton.setAttribute('aria-expanded',String(!expanded));navLinks.classList.toggle('open',!expanded)});
+    navLinks.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{navLinks.classList.remove('open');menuButton.setAttribute('aria-expanded','false')}));
+    const projects={tutor:{title:'Розумно — сайт репетитора',description:'Спокійний дизайн із чіткою структурою. Допомагає учневі зрозуміти формат занять і знайти відповідного викладача.',features:['Напрями занять та формат навчання','Розділ про викладача й методику','Помітне місце для запису на заняття']},cafe:{title:'Рано — сайт кав’ярні',description:'Тепла сторінка для знайомства з маленькою кав’ярнею. Основна інформація доступна без довгих пошуків.',features:['Коротке меню та сезонні пропозиції','Години роботи й місце для адреси','Оформлення, яке передає настрій закладу']},studio:{title:'Студія ідей — творче портфоліо',description:'Виразне оформлення для творчої справи. Великі заголовки та прості блоки залишають головну роль роботам.',features:['Галерея вибраних проєктів','Коротке знайомство зі студією','Структура для опису процесу та співпраці']}};
+    const projectDialog=document.querySelector('#project-dialog');
+    document.querySelectorAll('[data-project]').forEach(button=>button.addEventListener('click',()=>{const project=projects[button.dataset.project];document.querySelector('#project-title').textContent=project.title;document.querySelector('#project-description').textContent=project.description;document.querySelector('#project-features').replaceChildren(...project.features.map(text=>{const item=document.createElement('li');item.textContent=text;return item}));projectDialog.showModal()}));
+    document.querySelector('.dialog-close').addEventListener('click',()=>projectDialog.close());
+    projectDialog.addEventListener('click',event=>{if(event.target===projectDialog){const bounds=projectDialog.getBoundingClientRect();if(event.clientX<bounds.left||event.clientX>bounds.right||event.clientY<bounds.top||event.clientY>bounds.bottom)projectDialog.close()}});
+    document.querySelector('#similar-project').addEventListener('click',()=>{projectDialog.close();document.querySelector('#brief').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});document.querySelector('#client-name').focus({preventScroll:true})});
+    document.querySelector('#brief-form').addEventListener('submit',event=>{event.preventDefault();const form=event.currentTarget;const client=form.elements.name.value.trim();const idea=form.elements.idea.value.trim();const time=form.elements.time.value.trim();if(!client||!idea){document.querySelector('#form-status').textContent='Будь ласка, заповніть ім’я та опишіть ідею сайту.';(!client?form.elements.name:form.elements.idea).focus();return}const text='БРИФ ДЛЯ САЙТУ · ВЕБДЕМО\n\nІм’я: '+client+'\n\nПро справу та сайт:\n'+idea+'\n\nБажаний термін: '+(time||'Потрібно обговорити')+'\n';const blob=new Blob(['\ufeff',text],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob);const link=document.createElement('a');link.href=url;link.download='webdemo-brief.txt';document.body.append(link);link.click();link.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);document.querySelector('#form-status').textContent='Бриф готовий до завантаження. Збережіть його для обговорення.'});
+  </script>
+</body>
+</html>
